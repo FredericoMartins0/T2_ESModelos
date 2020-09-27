@@ -1,0 +1,14 @@
+Gherkin
+
+Dado [os valores :nome, :salarioFixo e :vendasEfetuadas]
+Quando [solicitar o salário a pagar]
+Então [o resultado será :total]
+
+nome   		| salarioFixo  | vendasEfetuadas  | total
+"JOAO"		| 500.00       | 1230.30          | 684.54
+"PEDRO"		| 700.00       | 0.00             | 700.00
+"MANGOJATA"	| 1700.00      | 1230.50          | 1844.58
+
+Dado os valores "JOAO", 500.00 e 1230.30
+Quando solicitar o salário a pagar
+Então o resultado será 684.54

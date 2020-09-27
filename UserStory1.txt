@@ -1,2 +1,24 @@
-História de Usuário 1
+História de Usuário
+-----------------------------------------------------------------
+Personas:
 
+Gerente de loja
+-----------------------------------------------------------------
+História de usuário
+
+"Eu, sendo Gerente de loja,
+gostaria de calcular o salário dos vendedores
+para saber o quanto devo pagar para ele ou ela ao final do mês."
+-----------------------------------------------------------------
+Critérios de aceitação:
+
+1. Variáveis nome, salarioFixo, vendasEfetuadas e total.
+2. A mensagem inicia com "TOTAL = R$ ".
+3. A mensagem termina com fim de linha (RETURN).
+-----------------------------------------------------------------
+Testes:
+
+x. {("JOAO", 500.0, 1230.30) -> ("TOTAL = R$ 684.54")}
+y. {("PEDRO", 700.0, 0.00) -> ("TOTAL = R$ 700.00")}
+z. {("MANGOJATA", 1700.00, 1230.50) -> ("TOTAL = R$ 1884.58")}
+-----------------------------------------------------------------
